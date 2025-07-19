@@ -1,0 +1,11 @@
+#copy file from local to container in ununtu
+
+FROM ubuntu
+RUN apt update -y
+COPY index.html /tmp
+ADD tomcate.tar.gz /tmp
+WORKDIR /tmp
+LABEL AUTHOER="Eswar"
+
+#This will found in container
+
