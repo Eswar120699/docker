@@ -1,0 +1,8 @@
+Installing git,python3(while creating image) and mssql(while creating container) in ununtu
+
+FROM ubuntu
+RUN apt update -y
+RUN apt install git -y
+RUN touch file2.txt
+RUN apt install python3 -y
+CMD apt install mssql -y
