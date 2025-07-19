@@ -1,0 +1,7 @@
+#Adding env variables and expose
+
+FROM ubuntu
+RUN apt update -y
+ENV course=devops
+ENV learner=eswar
+EXPOSE 8080
