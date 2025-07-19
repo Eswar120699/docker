@@ -1,3 +1,5 @@
+Installing git,tree in ununtu and crearte a sameple file:
+
 FROM ubuntu
 RUN apt update -y
 RUN apt install git tree -y
